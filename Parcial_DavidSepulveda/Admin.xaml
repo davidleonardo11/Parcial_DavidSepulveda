@@ -1,0 +1,14 @@
+﻿<Window x:Class="Quiz_DavidSepulveda.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz_DavidSepulveda"
+        mc:Ignorable="d"
+        Title="Admin" Height="330" Width="800">
+    <Grid Height="325" Background="#FFF8FBF6">
+        <TextBlock HorizontalAlignment="Left" Margin="35,45,0,0" Text="Bienvenido apreciado administrador, desde aqui podras ver los registros de las ventas" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Width="780"/>
+        <TextBlock HorizontalAlignment="Center" Text="" TextWrapping="Wrap" VerticalAlignment="Center"/>
+        <Button Name="btnRegresar" Content="Regresar" HorizontalAlignment="Center" Margin="0,243,0,0" VerticalAlignment="Top" Height="40" Width="134" Click="btnRegresar_Click"/>
+    </Grid>
+</Window>
